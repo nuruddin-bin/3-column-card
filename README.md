@@ -2,4 +2,4 @@
 ## Demo  
 https://nuruddin-bin.github.io/3-column-card/  
 
-![Screen Shot 2022-01-17 at 12 03 55](https://user-images.githubusercontent.com/93543604/149716278-57dca893-9cd9-462a-86e5-46819a17f6b4.png)
+![Screen Shot 2022-01-17 at 12 39 46](https://user-images.githubusercontent.com/93543604/149720013-9cb23e73-8642-47b4-a836-8922033f75c9.png)
