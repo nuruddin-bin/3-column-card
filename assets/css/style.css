@@ -40,26 +40,26 @@ body{
 
 .cards__wrapper{
     background-color: transparent;
-    width: 62%;
-    min-width: 17rem;
+    width: 70%;
+    min-width: 19.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 4rem 0;
+    margin: 3rem 0;
     border-radius: .5rem;
     overflow: hidden;
 }
 
 /* all card */
 .card{
-    padding: 3rem 2.2rem 3rem 2.2rem;
+    padding: 3rem 4rem 3.5rem 4rem;
     width: calc(100% / 3);
-    min-width: 17rem;
+    min-width: 19.5rem;
 }
 
 .card_img{
     display: block;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .card h1{
@@ -74,13 +74,13 @@ body{
     color: var(--transparent-white);
     font-family: var(--dark-cyan);
     line-height: 1.6;
-    margin: 2rem 0 5rem 0;
+    margin: 3rem 0 7rem 0;
 }
 
 .card a{
     text-decoration: none;
     background-color: var(--very-light-gray);
-    padding: .6rem 1.5rem;
+    padding: .7rem 1.6rem;
     border-radius: 5rem;
     border: 2px solid transparent;
     transition: .3s;
@@ -112,4 +112,21 @@ body{
 }
 .card-3 a{
     color: var(--very-dark-cyan);
+}
+
+
+/* ------- responsive ----------- */
+@media(max-width: 1337px){
+    /* all card */
+    .card{
+        padding: 3rem 3rem 3.5rem 2.5rem;
+    }
+
+    .card_img{
+        margin-bottom: 2rem;
+    }
+
+    .card p{
+        margin: 1.8rem 0 5rem 0;
+    }
 }
