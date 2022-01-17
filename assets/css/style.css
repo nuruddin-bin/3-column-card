@@ -14,6 +14,10 @@
     /* neutral */
     --transparent-white: hsla(0, 0%, 100%, 0.75);
     --very-light-gray: hsl(0, 0%, 95%);
+
+    /* font family */
+    --lexend-deca: 'Lexend Deca', sans-serif;
+    --big-shoulders: 'Big Shoulders Display', cursive;
 }
 
 body{
@@ -23,4 +27,89 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cards-section{
+    width: min(90rem, 100%);
+    min-height: 100vh;
+    background-color: var(--very-light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards__wrapper{
+    background-color: transparent;
+    width: 62%;
+    min-width: 17rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4rem 0;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+/* all card */
+.card{
+    padding: 3rem 2.2rem 3rem 2.2rem;
+    width: calc(100% / 3);
+    min-width: 17rem;
+}
+
+.card_img{
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.card h1{
+    font-family: var(--big-shoulders);
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: var(--very-light-gray);
+}
+
+.card p{
+    font-size: .9rem;
+    color: var(--transparent-white);
+    font-family: var(--dark-cyan);
+    line-height: 1.6;
+    margin: 2rem 0 5rem 0;
+}
+
+.card a{
+    text-decoration: none;
+    background-color: var(--very-light-gray);
+    padding: .6rem 1.5rem;
+    border-radius: 5rem;
+    border: 2px solid transparent;
+    transition: .3s;
+}
+
+.card a:hover{
+    background-color: transparent;
+    color: var(--very-light-gray);
+    border: 2px solid var(--very-light-gray);
+}
+
+/* separate card */
+.card-1{
+    background-color: var(--bright-orange);
+}
+.card-1 a{
+    color: var(--bright-orange);
+}
+
+.card-2{
+    background-color: var(--dark-cyan);
+}
+.card-2 a{
+    color: var(--dark-cyan);
+}
+
+.card-3{
+    background-color: var(--very-dark-cyan);
+}
+.card-3 a{
+    color: var(--very-dark-cyan);
 }
